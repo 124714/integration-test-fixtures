@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/124714/integration-test-fixtures/appointment-availability/schema-v1.json",
+  "title": "Synthetic appointment availability fixture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "revision", "updatedAt", "departments"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "revision": { "type": "integer", "minimum": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "departments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/department" }
+    }
+  },
+  "$defs": {
+    "department": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "specialities"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "specialities": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/speciality" }
+        }
+      }
+    },
+    "speciality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "doctors"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "doctors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/doctor" }
+        }
+      }
+    },
+    "doctor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "bookingType", "slots"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "bookingType": { "type": "string", "minLength": 1 },
+        "slots": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/slot" }
+        }
+      }
+    },
+    "slot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "time"],
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "time": { "type": "string", "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$" }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "updatedAt": "2026-09-28T00:00:00Z",
+  "departments": [
+    {
+      "id": 990001,
+      "name": "Тестовая поликлиника",
+      "specialities": [
+        {
+          "id": 990002,
+          "name": "Невролог",
+          "doctors": [
+            {
+              "id": 990003,
+              "name": "Тестовый врач",
+              "bookingType": "1",
+              "slots": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
