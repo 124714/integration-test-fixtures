@@ -1,22 +1,22 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "20260929t195900z-46f326d6",
-  "updatedAt": "2026-09-29T19:59:00Z",
+  "snapshotId": "20260929t200151z-ef493cae",
+  "updatedAt": "2026-09-29T20:01:51Z",
   "departments": [
     {
       "id": 990001,
       "name": "Тестовое подразделение № 1",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t195900z-46f326d6/departments/990001/specialities.json"
+      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990001/specialities.json"
     },
     {
       "id": 990101,
       "name": "Тестовое подразделение № 2",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t195900z-46f326d6/departments/990101/specialities.json"
+      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990101/specialities.json"
     },
     {
       "id": 990201,
       "name": "Тестовое подразделение № 3",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t195900z-46f326d6/departments/990201/specialities.json"
+      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990201/specialities.json"
     }
   ]
 }
