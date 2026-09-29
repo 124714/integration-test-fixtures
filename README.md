@@ -22,3 +22,11 @@ To run the baseline-first notification scenario:
 Consumers should request the file through the GitHub Contents API with
 `Accept: application/vnd.github.raw+json` and `Cache-Control: no-cache`. The
 unauthenticated API is intended for short functional checks, not load tests.
+
+The `scenarios/many-slots.json` scenario contains two departments, eight
+synthetic doctors and 131 slots for one doctor in `Центр здоровья`. It exercises
+the complete department → speciality → doctor → slots traversal and the large
+schedule UI. `current.json` currently publishes that scenario. Copy
+`scenarios/empty.json` to `current.json` before running the baseline-first
+notification sequence above; publishing a populated scenario can otherwise
+create a new-slot alert for an existing watch.
