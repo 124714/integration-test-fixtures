@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20260929t194214z-c0d45f10",
+  "departmentId": 990001,
+  "specialities": [
+    {
+      "id": 990011,
+      "name": "Невролог",
+      "doctorsHref": "appointment-availability/snapshots/20260929t194214z-c0d45f10/departments/990001/specialities/990011/doctors.json"
+    }
+  ]
+}
