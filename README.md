@@ -10,6 +10,20 @@ stand into an application.
 builds. Every entity uses a synthetic stable identifier; no patient data, API
 keys, credentials or copied production responses are allowed.
 
+The next fixture format is documented in
+[`appointment-availability/schema-v2.md`](appointment-availability/schema-v2.md).
+It splits the source into the production-shaped request chain
+department → speciality → doctor → slots and pins every relative child link to
+one immutable snapshot. The independent
+[`catalog-v2.json`](appointment-availability/catalog-v2.json) retains all
+predefined publisher choices, including specialities and doctors hidden by an
+empty current schedule. Its three department names are deliberately synthetic;
+the repository does not claim that they are names of real NMCS departments.
+
+`current.json` remains on schema v1 until a compatible Slots debug APK has been
+installed and the v2 publisher explicitly performs the first switch. This keeps
+the currently installed client working during rollout.
+
 ## JSON format
 
 The complete contract is in [`appointment-availability/schema-v1.json`](appointment-availability/schema-v1.json).

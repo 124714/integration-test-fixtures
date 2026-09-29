@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "departments": [
+    {
+      "id": 990001,
+      "name": "Тестовое подразделение № 1",
+      "specialities": [
+        {
+          "id": 990011,
+          "name": "Невролог",
+          "doctors": [
+            {
+              "id": 990012,
+              "name": "Тестовый врач Невролог № 1",
+              "bookingType": "speciality"
+            },
+            {
+              "id": 990013,
+              "name": "Тестовый врач Невролог № 2",
+              "bookingType": "speciality"
+            }
+          ]
+        },
+        {
+          "id": 990021,
+          "name": "Терапевт",
+          "doctors": [
+            {
+              "id": 990022,
+              "name": "Тестовый врач Терапевт № 1",
+              "bookingType": "speciality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 990101,
+      "name": "Тестовое подразделение № 2",
+      "specialities": [
+        {
+          "id": 990111,
+          "name": "Кардиолог",
+          "doctors": [
+            {
+              "id": 990112,
+              "name": "Тестовый врач Кардиолог № 1",
+              "bookingType": "speciality"
+            },
+            {
+              "id": 990113,
+              "name": "Тестовый врач Кардиолог № 2",
+              "bookingType": "speciality"
+            }
+          ]
+        },
+        {
+          "id": 990121,
+          "name": "Невролог",
+          "doctors": [
+            {
+              "id": 990122,
+              "name": "Тестовый врач Невролог № 3",
+              "bookingType": "speciality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 990201,
+      "name": "Тестовое подразделение № 3",
+      "specialities": [
+        {
+          "id": 990211,
+          "name": "Офтальмолог",
+          "doctors": [
+            {
+              "id": 990212,
+              "name": "Тестовый врач Офтальмолог № 1",
+              "bookingType": "speciality"
+            }
+          ]
+        },
+        {
+          "id": 990221,
+          "name": "Терапевт",
+          "doctors": [
+            {
+              "id": 990222,
+              "name": "Тестовый врач Терапевт № 2",
+              "bookingType": "speciality"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
