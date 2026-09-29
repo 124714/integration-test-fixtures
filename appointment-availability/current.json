@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
-  "updatedAt": "2026-09-28T00:05:00Z",
+  "revision": 3,
+  "updatedAt": "2026-09-29T14:12:35Z",
   "departments": [
     {
       "id": 990001,
@@ -16,7 +16,8 @@
               "name": "Тестовый врач",
               "bookingType": "1",
               "slots": [
-                { "date": "2030-01-15", "time": "10:30" }
+                { "date": "2030-01-15", "time": "10:30" },
+                { "date": "2030-01-15", "time": "11:30" }
               ]
             }
           ]
