@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20260929t193557z-56ab223e",
+  "departmentId": 990001,
+  "specialityId": 990011,
+  "doctors": [
+    {
+      "id": 990012,
+      "name": "Тестовый врач Невролог № 1",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20260929t193557z-56ab223e/departments/990001/specialities/990011/doctors/990012/slots.json"
+    },
+    {
+      "id": 990013,
+      "name": "Тестовый врач Невролог № 2",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20260929t193557z-56ab223e/departments/990001/specialities/990011/doctors/990013/slots.json"
+    }
+  ]
+}
