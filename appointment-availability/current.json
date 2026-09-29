@@ -1,40 +1,22 @@
 {
-  "schemaVersion": 1,
-  "revision": 6,
-  "updatedAt": "2026-09-29T18:07:01Z",
+  "schemaVersion": 2,
+  "snapshotId": "20260929t192625z-b6007978",
+  "updatedAt": "2026-09-29T19:26:25Z",
   "departments": [
     {
       "id": 990001,
-      "name": "Тестовая поликлиника",
-      "specialities": [
-        {
-          "id": 990002,
-          "name": "Невролог",
-          "doctors": [
-            {
-              "id": 990003,
-              "name": "Тестовый врач",
-              "bookingType": "1",
-              "slots": [
-                { "date": "2030-01-15", "time": "08:00" },
-                { "date": "2030-01-15", "time": "08:30" },
-                { "date": "2030-01-15", "time": "09:00" },
-                { "date": "2030-01-15", "time": "09:30" },
-                { "date": "2030-01-15", "time": "10:00" },
-                { "date": "2030-01-15", "time": "10:30" },
-                { "date": "2030-01-15", "time": "11:00" },
-                { "date": "2030-01-15", "time": "11:30" },
-                { "date": "2030-01-15", "time": "12:00" },
-                { "date": "2030-01-15", "time": "12:30" },
-                { "date": "2030-01-15", "time": "13:00" },
-                { "date": "2030-01-15", "time": "13:30" },
-                { "date": "2030-01-15", "time": "14:00" },
-                { "date": "2030-01-15", "time": "14:30" }
-              ]
-            }
-          ]
-        }
-      ]
+      "name": "Тестовое подразделение № 1",
+      "specialitiesHref": "appointment-availability/snapshots/20260929t192625z-b6007978/departments/990001/specialities.json"
+    },
+    {
+      "id": 990101,
+      "name": "Тестовое подразделение № 2",
+      "specialitiesHref": "appointment-availability/snapshots/20260929t192625z-b6007978/departments/990101/specialities.json"
+    },
+    {
+      "id": 990201,
+      "name": "Тестовое подразделение № 3",
+      "specialitiesHref": "appointment-availability/snapshots/20260929t192625z-b6007978/departments/990201/specialities.json"
     }
   ]
 }
