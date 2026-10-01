@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990001,
+  "specialityId": 990031,
+  "doctors": [
+    {
+      "id": 990032,
+      "name": "Волков Сергей Олегович (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990031/doctors/990032/slots.json"
+    }
+  ]
+}

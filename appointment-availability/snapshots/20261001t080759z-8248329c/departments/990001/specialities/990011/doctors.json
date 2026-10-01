@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990001,
+  "specialityId": 990011,
+  "doctors": [
+    {
+      "id": 990012,
+      "name": "Иванова Анна Сергеевна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990011/doctors/990012/slots.json"
+    },
+    {
+      "id": 990013,
+      "name": "Петров Игорь Викторович (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990011/doctors/990013/slots.json"
+    },
+    {
+      "id": 990014,
+      "name": "Смирнова Ольга Николаевна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990011/doctors/990014/slots.json"
+    }
+  ]
+}

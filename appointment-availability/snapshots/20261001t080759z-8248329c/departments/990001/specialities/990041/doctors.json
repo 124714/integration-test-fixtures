@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990001,
+  "specialityId": 990041,
+  "doctors": [
+    {
+      "id": 990042,
+      "name": "Лебедева Мария Игоревна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990041/doctors/990042/slots.json"
+    },
+    {
+      "id": 990043,
+      "name": "Соколов Андрей Михайлович (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990001/specialities/990041/doctors/990043/slots.json"
+    }
+  ]
+}

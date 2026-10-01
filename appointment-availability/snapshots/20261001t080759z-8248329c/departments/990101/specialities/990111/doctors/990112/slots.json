@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990101,
+  "specialityId": 990111,
+  "doctorId": 990112,
+  "slots": [
+    {
+      "date": "2026-10-03",
+      "time": "08:00"
+    },
+    {
+      "date": "2026-10-03",
+      "time": "08:30"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990101,
+  "specialityId": 990111,
+  "doctors": [
+    {
+      "id": 990112,
+      "name": "Фёдоров Павел Ильич (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990101/specialities/990111/doctors/990112/slots.json"
+    },
+    {
+      "id": 990113,
+      "name": "Егорова Наталья Викторовна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990101/specialities/990111/doctors/990113/slots.json"
+    }
+  ]
+}

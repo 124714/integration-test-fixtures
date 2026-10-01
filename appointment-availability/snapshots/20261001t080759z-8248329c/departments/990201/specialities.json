@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990201,
+  "specialities": [
+    {
+      "id": 990211,
+      "name": "Офтальмолог",
+      "doctorsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990201/specialities/990211/doctors.json"
+    }
+  ]
+}

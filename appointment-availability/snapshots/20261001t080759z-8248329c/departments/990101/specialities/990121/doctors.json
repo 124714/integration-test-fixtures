@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990101,
+  "specialityId": 990121,
+  "doctors": [
+    {
+      "id": 990122,
+      "name": "Иванов Алексей Дмитриевич (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990101/specialities/990121/doctors/990122/slots.json"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t080759z-8248329c",
+  "departmentId": 990101,
+  "specialities": [
+    {
+      "id": 990111,
+      "name": "Кардиолог",
+      "doctorsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990101/specialities/990111/doctors.json"
+    },
+    {
+      "id": 990121,
+      "name": "Невролог",
+      "doctorsHref": "appointment-availability/snapshots/20261001t080759z-8248329c/departments/990101/specialities/990121/doctors.json"
+    }
+  ]
+}
