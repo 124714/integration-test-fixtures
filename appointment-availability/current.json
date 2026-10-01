@@ -1,22 +1,22 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "20260929t200151z-ef493cae",
-  "updatedAt": "2026-09-29T20:01:51Z",
+  "snapshotId": "20261001t080605z-3ad5fd28",
+  "updatedAt": "2026-10-01T08:06:05Z",
   "departments": [
     {
       "id": 990001,
-      "name": "Тестовое подразделение № 1",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990001/specialities.json"
+      "name": "Центральная (тест)",
+      "specialitiesHref": "appointment-availability/snapshots/20261001t080605z-3ad5fd28/departments/990001/specialities.json"
     },
     {
       "id": 990101,
-      "name": "Тестовое подразделение № 2",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990101/specialities.json"
+      "name": "Соломбала (тест)",
+      "specialitiesHref": "appointment-availability/snapshots/20261001t080605z-3ad5fd28/departments/990101/specialities.json"
     },
     {
       "id": 990201,
-      "name": "Тестовое подразделение № 3",
-      "specialitiesHref": "appointment-availability/snapshots/20260929t200151z-ef493cae/departments/990201/specialities.json"
+      "name": "Детская (тест)",
+      "specialitiesHref": "appointment-availability/snapshots/20261001t080605z-3ad5fd28/departments/990201/specialities.json"
     }
   ]
 }
