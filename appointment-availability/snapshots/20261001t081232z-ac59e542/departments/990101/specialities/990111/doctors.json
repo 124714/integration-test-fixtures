@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t081232z-ac59e542",
+  "departmentId": 990101,
+  "specialityId": 990111,
+  "doctors": [
+    {
+      "id": 990112,
+      "name": "Фёдоров Павел Ильич (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t081232z-ac59e542/departments/990101/specialities/990111/doctors/990112/slots.json"
+    }
+  ]
+}

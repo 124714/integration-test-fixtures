@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t081232z-ac59e542",
+  "departmentId": 990001,
+  "specialityId": 990021,
+  "doctors": [
+    {
+      "id": 990022,
+      "name": "Кузнецов Дмитрий Андреевич (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t081232z-ac59e542/departments/990001/specialities/990021/doctors/990022/slots.json"
+    },
+    {
+      "id": 990023,
+      "name": "Морозова Елена Павловна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t081232z-ac59e542/departments/990001/specialities/990021/doctors/990023/slots.json"
+    }
+  ]
+}

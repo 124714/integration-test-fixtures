@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "20261001t081232z-ac59e542",
+  "departmentId": 990001,
+  "specialityId": 990041,
+  "doctors": [
+    {
+      "id": 990042,
+      "name": "Лебедева Мария Игоревна (тест)",
+      "bookingType": "speciality",
+      "slotsHref": "appointment-availability/snapshots/20261001t081232z-ac59e542/departments/990001/specialities/990041/doctors/990042/slots.json"
+    }
+  ]
+}
